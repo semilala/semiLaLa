@@ -1,0 +1,71 @@
+.replyTb{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    width:100%;
+    background-color : #fff;
+}
+
+ 
+.replyTb_a td {
+    text-align: left;
+    padding: 8px 0 8px 5px;
+    font-size: 10pt;
+    /* border-bottom:2px solid #ebebeb; */
+} 
+
+.rereply{
+    background-color: #ffe8f0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.txtEvent{
+    color:#3ae2e5!important;
+    text-decoration:none!important;
+}
+.txtEvent:hover, .txtEvent:focus { animation-duration: 3s; animation-name: rainbowLink; animation-iteration-count: infinite; } 
+@keyframes rainbowLink {     
+ 0% { color: #ff2a2a; }
+ 15% { color: #ff7a2a; }
+ 30% { color: #ffc52a; }
+ 45% { color: #43ff2a; }
+ 60% { color: #2a89ff; }
+ 75% { color: #202082; }
+ 90% { color: #6b2aff; } 
+ 100% { color: #e82aff; }
+}
+
+.aRight{
+    font-size:13px;
+    padding-left:70%;
+}
+.aaRight{
+    font-size:13px;
+}
+.adRight{
+    padding-left:65%;
+}
+.inputReplyTb{
+    text-align: center;
+    border:none;
+    border-collapse: collapse;
+    width:994px; 
+}
+.inputReplyTb td{
+    border:none;
+}
+.ver_bottom{
+    vertical-align: bottom;
+}
+.nonePadding{
+    padding:0px 0px 0px 0px!important;
+}
+

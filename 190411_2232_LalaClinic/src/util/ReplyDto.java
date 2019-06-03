@@ -14,7 +14,7 @@ public class ReplyDto extends MemberDto implements Serializable {
 	private int pseq;
 	private int ref;
 	private int step;
-	private int depth;
+	private int depth; 
 	private int del;
 	
 	public ReplyDto() {
